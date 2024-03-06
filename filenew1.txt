@@ -1,0 +1,4 @@
+Name   Age  Address  Stream
+aaman	23	ratahra	bhopal
+aaman	38	raj	ffd
+amam	34	sk	ak
