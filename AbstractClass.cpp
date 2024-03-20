@@ -25,6 +25,7 @@ class childAbstractClass : public parentAbstractClass{
 
 		virtual void f2(int a){
 			cout<<"\nin child we define pure virtual function f2()";
+			cout<<a;
 		}
 };
 
