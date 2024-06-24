@@ -1,36 +1,89 @@
-/* Imp- If we are create a Union (User define data type ) then union take onlyone
-highest momory allocate (it means in this Q. take double ) 
-*/
 
-#include<iostream>
-using namespace std;
 
-union geek{
-	int age;
-	double grade ;
-	float GPA;
-	
-};
-int main(){
-	union geek student1;
-   /*
-   // yadi apan pure input sath mai leke baad main output print karwate hai to 
-   // to ye only double ko print karega baki 0 print honge kyu union ak time main ak hi 
-   // variable ko memory allocate karta hai
-   
-   	cin>>student1.age;
-    cin>>student1.GPA;
-    cin>>student1.grade;
-	
-	cout<<"Student Age is = "<<student1.age;
-    cout<<"\nStudent GPA = "<<student1.GPA;
-	cout<<" \n Student Grade is = "<<student1.grade;
-   
-   */
-	cin>>student1.age;
-	cout<<"Student Age is = "<<student1.age;
-	cin>>student1.GPA;
-	cout<<"\nStudent GPA = "<<student1.GPA;
-	cin>>student1.grade;
-	cout<<" \n Student Grade is = "<<student1.grade;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//#include<iostream>
+//using namespace std;
+//
+//class MusicAcademy{
+//	private :
+//		int enroll;
+//		string name;
+//		string style;
+//		float fee;
+//		void chefee(){
+//			if(style == "Classical")
+//			    fee = 10000;
+//			else if(style == "Western")
+//			    fee = 8000;
+//			else if(style == "Freestyle")
+//			  fee = 11000;
+//		}
+//	public :
+//		void enrollment(){
+//			cout<<"Enter enroll: ";
+//			cin>>enroll;
+//			cout<<"\nEnter name: ";
+//			cin>>name;
+//			cout<<"\nEnter style Classical or Western or  Freestyle : ";
+//			cin>>style;
+//			chefee();
+//			
+//		}
+//		void display(){
+//			cout<<"Your enroll: ";
+//			cout<<enroll;
+//			cout<<"\nYour name: ";
+//			cout<<name;
+//			cout<<"\nYour style : ";
+//			cout<<style;
+//			cout<<"\n your fees is :";
+//			cout<<fee;
+//		}
+//		
+//	friend class ExammusicAccademy;
+//	
+//};
+//
+//class ExammusicAccademy{
+//	public : 
+//	 void showExam(MusicAcademy &M){
+//	 	if(M.style == "Classical")
+//	 	   cout<<"Exam is on Will be on December ";
+//	 	else if(M.style == "Western")
+//	 		cout<<"Exam is on will be on november ";
+//	 	else if(M.style == "Freestyle")
+//	 	   cout<<"Exam on February";
+//		 }
+	 
+//};
+//int main(){
+//	MusicAcademy m;
+//	m.enrollment();
+//	m.display();
+//	ExammusicAccademy e;
+//	e.showExam(m);
+//}
+////freind class is access private and protected member
+
+

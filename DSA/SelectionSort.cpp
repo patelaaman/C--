@@ -1,5 +1,6 @@
 // Selection Short
-
+// Stable : whenever there are similar element in an array going to be sorted and if there order is 
+//  properly meintain
 #include<iostream>
 using namespace std;
 
